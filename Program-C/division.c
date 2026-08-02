@@ -6,7 +6,7 @@ float calq(float dividend, float divisor){
     return quotient;
 }
 
-float calr(int dividend, int divisor){
+float calr(float dividend, float divisor){
   float remainder=dividend%divisor;
     return remainder;
 }
