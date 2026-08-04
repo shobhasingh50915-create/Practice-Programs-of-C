@@ -6,11 +6,11 @@ int main(){
   ptr=&n;
 
   printf("The value of n is %d",n);
-  printf("The value of ptr is %d",*ptr);
+  printf("\nThe value of ptr is %d",*ptr);
 
   *ptr=25;
-  printf("The value of n is %d",n);
-  printf("The value of ptr is %d",*ptr);
+  printf("\nThe value of n is %d",n);
+  printf("\nThe value of ptr is %d",*ptr);
 
     return 0;
 }
