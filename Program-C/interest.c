@@ -4,8 +4,8 @@ float simpint(float p,float r,float time){
   float simple_interest=(p*r*time)/100;
     return simple_interest;
 }
-float compint(int p,int r,int time){
-   float total_interest= p * pow((1 + r / 100.0), time);
+float compint(float p,float r,float time){
+   float total_interest= p * pow((1 + r / 100), time);
    float compound_interest=total_interest-p;
     return compound_interest;
 }
