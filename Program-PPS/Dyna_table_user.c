@@ -7,7 +7,7 @@ int main() {
 
     printf("Enter the number of integers you want in the table: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
-        printf("Invalid size entered.\n");
+        printf("Invalid size entered\n");
         return 1;
     }
 
