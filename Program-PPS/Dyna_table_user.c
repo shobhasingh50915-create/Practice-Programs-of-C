@@ -7,14 +7,14 @@ int main() {
 
     printf("Enter the number of integers you want in the table: ");
     if (scanf("%d", &n) != 1 || n <= 0) {
-        printf("Invalid size entered.\n");
+        printf("Invalid size entered\n");
         return 1;
     }
 
     table = (int*)malloc(n * sizeof(int));
 
     if (table == NULL) {
-        printf("Memory allocation failed! Exiting...\n");
+        printf("Memory allocation failed\n");
         return 1; 
     }
 
