@@ -30,8 +30,6 @@ int main() {
         printf("%d ", table[i]); 
     }
     
-    printf("\n");
-
     free(table);
 
     return 0; 
