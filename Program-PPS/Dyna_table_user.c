@@ -14,7 +14,7 @@ int main() {
     table = (int*)malloc(n * sizeof(int));
 
     if (table == NULL) {
-        printf("Memory allocation failed! Exiting...\n");
+        printf("Memory allocation failed\n");
         return 1; 
     }
 
