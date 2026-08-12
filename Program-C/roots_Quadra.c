@@ -6,18 +6,13 @@ int main() {
     double a, b, c;
     double realpart, imaginarypart;
 
-   
     printf("Enter coefficient a, b, c: ");
-    
-    
     scanf("%lf %lf %lf", &a, &b, &c); 
-
     discriminant = b * b - 4 * a * c;
-
     
     if (discriminant > 0) {
         root1 = (-b + sqrt(discriminant)) / (2 * a);
-        root2 = (-b - sqrt(discriminant)) / (2 * a); // 4. Fixed root2 typo
+        root2 = (-b - sqrt(discriminant)) / (2 * a); 
         printf("Root1 = %.2lf and Root2 = %.2lf\n", root1, root2); 
     }
     else if (discriminant == 0) {
