@@ -15,7 +15,7 @@ int main() {
     printf("Memory allocated with malloc (garbage values):\n");
     for (i = 0; i < n; i++) {
         printf("%d ", ptr[i]);
-        ptr[i] = i + 1; // show garbage of memory & loop allocate the memory as ptr[0],ptr[1],ptr[2].
+        ptr[i] = i + 1; // show garbage  memory & loop allocate the memory as ptr[0],ptr[1],ptr[2]
     }
 
     free(ptr);
