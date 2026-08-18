@@ -6,10 +6,17 @@ struct student{
 };
 
 int main(){
+struct student s;
+printf("Enter Name:");
+fgets(s.name,sizeof(s.name),stdin);
+printf("Enter roll:");
+scanf("%d",s.roll);
+printf("Enter cgpa:");
+scanf("%f",s.cgpa);
 
+printf("Name:%s,s.name");
+printf("Roll:%d,s.roll");
+printf("Cgpa:%f,s.cgpa");
 
-
-
-
-    return 0;
+return 0;
 }
