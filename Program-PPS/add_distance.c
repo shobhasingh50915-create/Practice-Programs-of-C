@@ -10,13 +10,13 @@ struct Distance d1,d2,sum;
 printf("Enter the distance d1:-");
 printf("\nFeet:");
 scanf("%d",&d1.feet);
-printf("\ninch:");
+printf("inch:");
 scanf("%f",&d1.inch);
 
 printf("\nEnter the distance d2:-");
 printf("\nFeet:");
 scanf("%d",&d2.feet);
-printf("\ninch:");
+printf("inch:");
 scanf("%f",&d2.inch);
 
 sum.feet=d1.feet+d2.feet;
