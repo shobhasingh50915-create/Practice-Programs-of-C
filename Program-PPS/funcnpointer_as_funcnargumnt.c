@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void swap(int *a, int *b) {
     int temp;
     temp = *a;
@@ -11,7 +12,7 @@ int compareAsc(int a, int b) {
     return a < b;
 }
 
-int compareDesc(int a, int b) { // Fixed spelling from comparedes
+int compareDesc(int a, int b) { 
     return a > b;
 }
 
@@ -24,31 +25,31 @@ void selectionsort(int *arr, int n, int (*compare)(int, int)) {
                 best_ptr = (arr + j);
             }
         }
-        if (best_ptr != (arr + i)) { // Fixed arr+1 to arr+i
+        if (best_ptr != (arr + i)) { 
             swap(best_ptr, (arr + i));
         }
     }
 }
 
-void printArray(int *arr, int n) { // Fixed type 'inth' to 'int n'
-    for (int *p = arr; p < (arr + n); p++) { // Fixed 'inth', 'P', and '< (arr +1)'
+void printArray(int *arr, int n) { 
+    for (int *p = arr; p < (arr + n); p++) { 
         printf("%d ", *p);
     }
     printf("\n");
 }
 
 int main() {
-    int arr[] = {64, 25, 12, 22, 113}; // Fixed missing closing brace
-    int n = sizeof(arr) / sizeof(arr[0]); // Fixed 'size of' and 'Size of'
+    int arr[] = {64, 25, 12, 22, 113}; 
+    int n = sizeof(arr) / sizeof(arr[0]); 
     
     printf("Original: ");
-    printArray(arr, n); // Fixed function name and spacing
+    printArray(arr, n);
     
-    selectionsort(arr, n, compareAsc); // Fixed capitalization and spacing
+    selectionsort(arr, n, compareAsc); 
     printf("Ascending: ");
     printArray(arr, n);
     
-    selectionsort(arr, n, compareDesc); // Fixed capitalization, spelling, and spacing
+    selectionsort(arr, n, compareDesc); 
     printf("Descending: ");
     printArray(arr, n);
     

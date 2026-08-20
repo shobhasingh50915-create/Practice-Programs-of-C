@@ -10,9 +10,9 @@ struct student s;
 printf("Enter Name:");
 fgets(s.name,sizeof(s.name),stdin);
 printf("Enter roll:");
-scanf("%d",s.roll);
+scanf("%d",&s.roll);
 printf("Enter cgpa:");
-scanf("%f",s.cgpa);
+scanf("%f",&s.cgpa);
 
 printf("Name:%s,s.name");
 printf("Roll:%d,s.roll");
