@@ -4,10 +4,10 @@ double base;
 int exp;
 double result=1.0;
 
-printf("Enter a base no:-");
+printf("Enter a base no:");
 scanf("%lf",&base);
 
-printf("Enter an exponential:-");
+printf("Enter an exponential:");
 scanf("%d", &exp);
 
 int tempExp=exp;
