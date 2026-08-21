@@ -2,7 +2,7 @@
 int main(){
 double base;
 int exp;
-long double result=1.0;
+double result=1.0;
 
 printf("Enter a base no:-");
 scanf("%lf",&base);
@@ -20,7 +20,7 @@ while(exp>0){
     --exp;
 }
 
-printf("Answer= %Lf\n",result);
+printf("Answer= %lf\n",result);
 
 
     return 0;
